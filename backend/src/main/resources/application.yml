@@ -1,0 +1,59 @@
+server:
+  # 和前端 vite.config.ts 的代理目标对齐，换端口两边都要改
+  port: ${FITPLAN_API_PORT:8787}
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+
+spring:
+  application:
+    name: fitplan-api
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:127.0.0.1}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:fitplan}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 8000
+  sql:
+    init:
+      # 建库/建表由 SchemaInitializer 来做：它读的还是 Node 版那份 server/schema.sql，两边共用一个 DDL
+      mode: never
+  jackson:
+    default-property-inclusion: always
+  data:
+    redis:
+      host: ${REDIS_HOST:127.0.0.1}
+      port: ${REDIS_PORT:6379}
+      timeout: 2s
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+fitplan:
+  api-port: ${FITPLAN_API_PORT:8787}
+  # 支付宝授权回调之后跳回这里
+  front: ${FITPLAN_FRONT:http://localhost:5173}
+  # 支付宝异步通知要打到的地址；留空就不能收款
+  public-base: ${FITPLAN_PUBLIC_BASE:}
+  # 允许跨域调 /api 的来源，逗号分隔；留空用代码里的默认三个
+  origins: ${FITPLAN_ORIGINS:}
+  session-days: ${FITPLAN_SESSION_DAYS:30}
+  auth:
+    # 生产必须通过环境变量覆盖；默认值只用于本地开发
+    jwt-secret: ${JWT_SECRET:fitplan-dev-secret-change-me-32-bytes!}
+    expire-minutes: ${JWT_EXPIRE_MINUTES:120}
+  alipay:
+    app-id: ${ALIPAY_APP_ID:}
+    gateway: ${ALIPAY_GATEWAY:https://openapi.alipay.com/gateway.do}
+    private-key: ${ALIPAY_APP_PRIVATE_KEY:}
+    private-key-file: ${ALIPAY_APP_PRIVATE_KEY_FILE:}
+    public-key: ${ALIPAY_PUBLIC_KEY:}
+    public-key-file: ${ALIPAY_PUBLIC_KEY_FILE:}
+  pay:
+    price-yuan: ${FITPLAN_PRO_PRICE_YUAN:8}
+    days: ${FITPLAN_PRO_DAYS:30}
+    subject: ${FITPLAN_PRO_SUBJECT:练 · Pro 会员}

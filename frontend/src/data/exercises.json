@@ -1,0 +1,2374 @@
+[
+  {
+    "id": "front-squat",
+    "name": "杠铃前蹲",
+    "muscles": [
+      "股四头",
+      "核心",
+      "臀"
+    ],
+    "pattern": "squat",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 165,
+    "reps": 5,
+    "sets": 4,
+    "ramp": true,
+    "starter": {
+      "0": {
+        "male": 35,
+        "female": 25
+      },
+      "1": {
+        "male": 50,
+        "female": 35
+      },
+      "2": {
+        "male": 65,
+        "female": 45
+      }
+    },
+    "caution": {
+      "knee": "躯干更直立，膝前移幅度其实不小",
+      "ankle": "踝背屈不够就在脚跟下垫小杠片",
+      "shoulder": "架式需要肘部抬高，肩前不适就交叉架或加握带"
+    },
+    "avoid": [
+      "lowBack"
+    ],
+    "form": "肘高抬、杠架在三角前束，蹲到髋略低于膝，躯干不掉"
+  },
+  {
+    "id": "hack-squat",
+    "name": "哈克深蹲",
+    "muscles": [
+      "股四头",
+      "臀"
+    ],
+    "pattern": "squat",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 120,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "knee": "脚放太低会变成纯膝主导，往上挪一点"
+    },
+    "form": "肩背贴稳靠垫，下放到膝约 90 度，蹬起不锁膝"
+  },
+  {
+    "id": "reverse-lunge",
+    "name": "哑铃反向箭步蹲",
+    "muscles": [
+      "股四头",
+      "臀",
+      "核心"
+    ],
+    "pattern": "lunge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 105,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 14,
+        "female": 9
+      },
+      "2": {
+        "male": 20,
+        "female": 12
+      }
+    },
+    "caution": {
+      "knee": "后膝接近地面就停，别让它磕下去"
+    },
+    "form": "向后撤一大步，后膝接近地面再用前脚蹬回"
+  },
+  {
+    "id": "static-lunge",
+    "name": "哑铃箭步蹲",
+    "muscles": [
+      "股四头",
+      "臀"
+    ],
+    "pattern": "lunge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 105,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 14,
+        "female": 9
+      },
+      "2": {
+        "male": 18,
+        "female": 12
+      }
+    },
+    "caution": {
+      "knee": "前膝压力比反向箭步大，步幅调大一点"
+    },
+    "form": "垂直下蹲，前后脚各承担一半，躯干保持直立"
+  },
+  {
+    "id": "step-up",
+    "name": "哑铃台阶上步",
+    "muscles": [
+      "股四头",
+      "臀",
+      "核心"
+    ],
+    "pattern": "lunge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 90,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 6,
+        "female": 4
+      },
+      "1": {
+        "male": 12,
+        "female": 8
+      },
+      "2": {
+        "male": 16,
+        "female": 10
+      }
+    },
+    "caution": {
+      "ankle": "箱子从 20 厘米起，站稳再加高"
+    },
+    "form": "整只脚踩上箱子，靠前脚脚跟发力站起，另一脚只轻点地"
+  },
+  {
+    "id": "single-leg-rdl",
+    "name": "单腿罗马尼亚硬拉",
+    "muscles": [
+      "腘绳",
+      "臀",
+      "核心"
+    ],
+    "pattern": "hinge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 90,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 14,
+        "female": 9
+      },
+      "2": {
+        "male": 18,
+        "female": 12
+      }
+    },
+    "caution": {
+      "lowBack": "骨盆一旋转腰部就受扭力，扶架子或减行程",
+      "ankle": "站不稳先练徒手版"
+    },
+    "form": "支撑腿微屈，髋往后送，自由腿向后伸，骨盆摆平"
+  },
+  {
+    "id": "sumo-deadlift",
+    "name": "相扑硬拉",
+    "muscles": [
+      "臀",
+      "股四头",
+      "后链"
+    ],
+    "pattern": "hinge",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 180,
+    "reps": 5,
+    "sets": 3,
+    "ramp": true,
+    "starter": {
+      "0": {
+        "male": 50,
+        "female": 35
+      },
+      "1": {
+        "male": 70,
+        "female": 50
+      },
+      "2": {
+        "male": 95,
+        "female": 65
+      }
+    },
+    "caution": {
+      "knee": "站位宽时膝必须跟着脚尖外开，膝内扣就换回传统宽度",
+      "ankle": "踝外开幅度不够就少加宽度"
+    },
+    "avoid": [
+      "lowBack"
+    ],
+    "form": "站宽、脚尖外开，膝盖顶住向外方向，杠贴腿站起"
+  },
+  {
+    "id": "good-morning",
+    "name": "杠铃早安式体前屈",
+    "muscles": [
+      "后链",
+      "臀",
+      "核心"
+    ],
+    "pattern": "hinge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 105,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 20,
+        "female": 20
+      },
+      "1": {
+        "male": 25,
+        "female": 20
+      },
+      "2": {
+        "male": 35,
+        "female": 25
+      }
+    },
+    "caution": {
+      "knee": "膝保持微屈，别锁死",
+      "shoulder": "架不稳就换史密斯或哑铃版"
+    },
+    "avoid": [
+      "lowBack"
+    ],
+    "form": "髋为轴向前送，背全程平直，到大腿后侧拉紧就起"
+  },
+  {
+    "id": "back-extension",
+    "name": "罗马椅背屈伸",
+    "muscles": [
+      "后链",
+      "臀",
+      "核心"
+    ],
+    "pattern": "hinge",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 90,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 5,
+        "female": 2.5
+      },
+      "2": {
+        "male": 10,
+        "female": 5
+      }
+    },
+    "caution": {
+      "lowBack": "起来到与地面平行就停，过伸是腰在受力"
+    },
+    "form": "下放到躯干与地面约成 45 度，夹臀起来，不塌腰"
+  },
+  {
+    "id": "hip-bridge",
+    "name": "自重臀桥",
+    "muscles": [
+      "臀",
+      "腘绳"
+    ],
+    "pattern": "hipThrust",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 60,
+    "reps": 20,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "knee": "脚跟离臀太近会把力压到膝"
+    },
+    "form": "脚跟压地，夹臀顶起到膝髋肩一条线，顶部停 1 秒"
+  },
+  {
+    "id": "seated-leg-curl",
+    "name": "坐姿腿弯举",
+    "muscles": [
+      "腘绳"
+    ],
+    "pattern": "legIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "knee": "放回时别用惯性甩，抽筋感就缩小行程"
+    },
+    "form": "踝关节保持中立，弯到最大再花 3 秒放回"
+  },
+  {
+    "id": "hip-abduction",
+    "name": "坐姿髋外展",
+    "muscles": [
+      "臀",
+      "核心"
+    ],
+    "pattern": "legIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "lowBack": "别扭腰打开，上身贴回靠垫"
+    },
+    "form": "上身站稳，只用髋向外打开，张开时停 1 秒"
+  },
+  {
+    "id": "hip-adduction",
+    "name": "坐姿髋内收",
+    "muscles": [
+      "臀",
+      "核心"
+    ],
+    "pattern": "legIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "form": "两腿向内夹到接触，慢放时不要让配重片撞到底"
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "坐姿提踵",
+    "muscles": [
+      "小腿"
+    ],
+    "pattern": "legIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 20,
+        "female": 10
+      },
+      "2": {
+        "male": 30,
+        "female": 15
+      }
+    },
+    "caution": {
+      "ankle": "行程只在踝关节范围内，不要内外翻"
+    },
+    "form": "坐姿屈膝位专练比目鱼肌，最高点上停 1 秒，慢放 3 秒"
+  },
+  {
+    "id": "single-leg-calf",
+    "name": "单腿站姿提踵",
+    "muscles": [
+      "小腿"
+    ],
+    "pattern": "calfRaise",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 45,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "ankle": "站稳扶墙，脚跟别偏向外侧"
+    },
+    "form": "前脚掌踩台阶边，升到最高点再慢放到低于水平"
+  },
+  {
+    "id": "leg-press-calf",
+    "name": "腿举提踵",
+    "muscles": [
+      "小腿"
+    ],
+    "pattern": "legIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "knee": "膝只留一点弯曲，别完全锁死"
+    },
+    "form": "只动踝，脚掌前段踩板，向后压到最大幅度"
+  },
+  {
+    "id": "incline-bb-press",
+    "name": "杠铃上斜卧推",
+    "muscles": [
+      "胸上部",
+      "三角前束",
+      "三头"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 165,
+    "reps": 8,
+    "sets": 3,
+    "ramp": true,
+    "starter": {
+      "0": {
+        "male": 25,
+        "female": 15
+      },
+      "1": {
+        "male": 35,
+        "female": 22
+      },
+      "2": {
+        "male": 47.5,
+        "female": 30
+      }
+    },
+    "caution": {
+      "shoulder": "上斜角度越大肩前部越吃力量，30 度以内更安全"
+    },
+    "form": "杠铃落在锁骨下方一点，肩胛收稳，推起到肘接近伸直"
+  },
+  {
+    "id": "db-fly",
+    "name": "哑铃飞鸟",
+    "muscles": [
+      "胸"
+    ],
+    "pattern": "chestIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 90,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 6,
+        "female": 4
+      },
+      "1": {
+        "male": 10,
+        "female": 6
+      },
+      "2": {
+        "male": 14,
+        "female": 8
+      }
+    },
+    "caution": {
+      "shoulder": "下放到与胸同高就停，别追更大幅度",
+      "lowBack": "肩胛贴稳凳面，腰只留自然弧"
+    },
+    "form": "肘微屈像抱大树，两臂在胸口正上方合拢"
+  },
+  {
+    "id": "machine-fly",
+    "name": "蝴蝶机夹胸",
+    "muscles": [
+      "胸"
+    ],
+    "pattern": "chestIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "shoulder": "打开幅度以不扯到肩前部为准"
+    },
+    "form": "肘略屈贴住垫，向胸前合拢，慢放回不让片撞底"
+  },
+  {
+    "id": "dip-chest",
+    "name": "双杠臂屈伸（前倾）",
+    "muscles": [
+      "胸下部",
+      "三角前束",
+      "三头"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "双杠"
+    ],
+    "unit": "自重",
+    "restSec": 105,
+    "reps": 8,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "下放到上臂与地面平行就停，肩前刺痛立刻换动作"
+    },
+    "form": "身体前倾、肘略外开，撑起到手臂接近伸直"
+  },
+  {
+    "id": "wide-push-up",
+    "name": "宽距俯卧撑",
+    "muscles": [
+      "胸",
+      "三角前束",
+      "核心"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "手放得比肩宽太多时肩前部受力大，一掌宽就够"
+    },
+    "form": "手在肩外一掌宽，身体一条直线，胸口接近地面再推起"
+  },
+  {
+    "id": "elevated-push-up",
+    "name": "手撑高俯卧撑",
+    "muscles": [
+      "胸",
+      "三头",
+      "核心"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "form": "手撑在桌沿或杠架上下压，越高越省力，能标准做满 15 个再降低高度"
+  },
+  {
+    "id": "feet-elevated-push-up",
+    "name": "脚抬高俯卧撑",
+    "muscles": [
+      "胸上部",
+      "三角前束",
+      "三头"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 90,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "脚抬得越高肩前部负担越大，先只抬到脚踝高"
+    },
+    "form": "脚踩箱子、手撑地，头朝下顶到接近地面再推回"
+  },
+  {
+    "id": "diamond-push-up",
+    "name": "窄距俯卧撑",
+    "muscles": [
+      "三头",
+      "胸",
+      "核心"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 75,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "肘贴身体下压，肩前刺痛就回到标准宽度"
+    },
+    "form": "两手拇指食指相对成菱形，肘向后下方走"
+  },
+  {
+    "id": "cable-fly-high",
+    "name": "绳索上斜夹胸",
+    "muscles": [
+      "胸上部",
+      "胸"
+    ],
+    "pattern": "chestIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 7.5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "caution": {
+      "shoulder": "滑轮太高会把力转到肩上，压到与胸同高"
+    },
+    "form": "从下向上合到眼前高度，肘角全程不变"
+  },
+  {
+    "id": "arnold-press",
+    "name": "阿诺德哑铃推肩",
+    "muscles": [
+      "三角",
+      "三头"
+    ],
+    "pattern": "verticalPush",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 105,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 12,
+        "female": 8
+      },
+      "2": {
+        "male": 16,
+        "female": 10
+      }
+    },
+    "caution": {
+      "shoulder": "转腕那一段最吃肩前部，出现刺痛就换成普通推举"
+    },
+    "form": "起手掌心朝自己，推起的同时向外转到头顶上方"
+  },
+  {
+    "id": "push-press",
+    "name": "借力杠铃推举",
+    "muscles": [
+      "三角",
+      "三头",
+      "核心"
+    ],
+    "pattern": "verticalPush",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 150,
+    "reps": 6,
+    "sets": 3,
+    "ramp": true,
+    "starter": {
+      "0": {
+        "male": 25,
+        "female": 15
+      },
+      "1": {
+        "male": 35,
+        "female": 22
+      },
+      "2": {
+        "male": 45,
+        "female": 30
+      }
+    },
+    "caution": {
+      "lowBack": "腿只轻屈一点帮忙，靠腰后仰顶起来就立刻减重",
+      "knee": "屈膝幅度小，不是深蹲"
+    },
+    "form": "膝微屈借力把杠顶到锁骨上方，站直后推到头顶"
+  },
+  {
+    "id": "db-front-raise",
+    "name": "哑铃前平举",
+    "muscles": [
+      "三角前束",
+      "胸上部"
+    ],
+    "pattern": "shoulderIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 4,
+        "female": 2.5
+      },
+      "1": {
+        "male": 6,
+        "female": 4
+      },
+      "2": {
+        "male": 8,
+        "female": 5
+      }
+    },
+    "caution": {
+      "shoulder": "抬到肩高就停，推举日做过的话这一项可以省"
+    },
+    "form": "肘微屈向前抬起到大臂与肩同高，慢放"
+  },
+  {
+    "id": "machine-lateral",
+    "name": "器械侧平举",
+    "muscles": [
+      "三角中束"
+    ],
+    "pattern": "shoulderIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "form": "大臂贴住垫向外打开，与肩同高就收回来"
+  },
+  {
+    "id": "bent-over-rear-fly",
+    "name": "俯身哑铃反向飞鸟",
+    "muscles": [
+      "三角后束",
+      "上背"
+    ],
+    "pattern": "shoulderIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 3,
+        "female": 2
+      },
+      "1": {
+        "male": 5,
+        "female": 3
+      },
+      "2": {
+        "male": 7,
+        "female": 4
+      }
+    },
+    "caution": {
+      "lowBack": "俯身时腰要出力稳住，撑不住就趴在斜凳上做"
+    },
+    "form": "俯身到胸接近与地面平行，向两侧展开到肩高，不耸肩"
+  },
+  {
+    "id": "y-raise",
+    "name": "Y 字侧平举",
+    "muscles": [
+      "三角后束",
+      "上背"
+    ],
+    "pattern": "shoulderIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 2.5,
+        "female": 1.5
+      },
+      "1": {
+        "male": 4,
+        "female": 2.5
+      },
+      "2": {
+        "male": 6,
+        "female": 3
+      }
+    },
+    "form": "手臂斜向前上方成 Y 字抬起，拇指朝上，肩不耸"
+  },
+  {
+    "id": "cable-external-rotation",
+    "name": "绳索肩外旋",
+    "muscles": [
+      "肩袖",
+      "三角后束"
+    ],
+    "pattern": "shoulderIso",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 7.5,
+        "female": 5
+      },
+      "2": {
+        "male": 10,
+        "female": 7.5
+      }
+    },
+    "caution": {
+      "shoulder": "这是最轻档的稳定训练，出现刺痛就停，不要硬加重量"
+    },
+    "form": "肘夹在腰侧成 90 度，只向外旋转前臂，身体不扭"
+  },
+  {
+    "id": "chin-up",
+    "name": "反握引体向上",
+    "muscles": [
+      "背阔",
+      "二头",
+      "核心"
+    ],
+    "pattern": "verticalPull",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "引体杆"
+    ],
+    "unit": "自重",
+    "restSec": 120,
+    "reps": 6,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "下放到底时肩要主动控制，别甩到完全松脱"
+    },
+    "form": "掌心朝自己，下巴过杆后再慢慢放下"
+  },
+  {
+    "id": "neutral-grip-pulldown",
+    "name": "中性握高位下拉",
+    "muscles": [
+      "背阔",
+      "二头"
+    ],
+    "pattern": "verticalPull",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 105,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 20,
+        "female": 10
+      },
+      "2": {
+        "male": 30,
+        "female": 20
+      }
+    },
+    "caution": {
+      "shoulder": "握把平行最友好，拉到锁骨前就停"
+    },
+    "form": "挺胸、肩胛下压，把握拉到胸前再慢放"
+  },
+  {
+    "id": "single-arm-pulldown",
+    "name": "单臂绳索下拉",
+    "muscles": [
+      "背阔",
+      "核心"
+    ],
+    "pattern": "verticalPull",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 7.5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "form": "一侧手抓把手向下拉到髋侧，躯干别跟着扭"
+  },
+  {
+    "id": "straight-arm-pulldown",
+    "name": "绳索直臂下压",
+    "muscles": [
+      "背阔",
+      "核心"
+    ],
+    "pattern": "verticalPull",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "caution": {
+      "shoulder": "手臂全程微屈，直臂不代表锁死肘"
+    },
+    "form": "像把杠从胸前压到大腿，只用肩关节动"
+  },
+  {
+    "id": "t-bar-row",
+    "name": "T 杠划船",
+    "muscles": [
+      "背中部",
+      "背阔",
+      "二头"
+    ],
+    "pattern": "horizontalPull",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 150,
+    "reps": 8,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 20,
+        "female": 12.5
+      },
+      "1": {
+        "male": 30,
+        "female": 20
+      },
+      "2": {
+        "male": 42.5,
+        "female": 27.5
+      }
+    },
+    "caution": {
+      "lowBack": "俯身撑不住就改用胸托划船机",
+      "knee": "膝微屈，别站直硬弯腰"
+    },
+    "form": "躯干接近与地面平行，把杠拉到下胸，肘贴身"
+  },
+  {
+    "id": "db-bent-row",
+    "name": "俯身哑铃双臂划船",
+    "muscles": [
+      "背中部",
+      "背阔",
+      "二头"
+    ],
+    "pattern": "horizontalPull",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 90,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 12,
+        "female": 8
+      },
+      "2": {
+        "male": 16,
+        "female": 10
+      }
+    },
+    "caution": {
+      "lowBack": "腰酸就一只手撑凳子做单臂版"
+    },
+    "form": "俯身稳住背，两肘向后拉到腰侧，夹肩胛"
+  },
+  {
+    "id": "machine-row",
+    "name": "坐姿器械划船",
+    "muscles": [
+      "背中部",
+      "菱形肌",
+      "三头"
+    ],
+    "pattern": "horizontalPull",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 90,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "lowBack": "不要用腰前后晃，胸口留在靠垫上"
+    },
+    "form": "把手拉到腹部，肘贴身体，肩胛向后夹紧"
+  },
+  {
+    "id": "single-arm-cable-row",
+    "name": "单臂绳索划船",
+    "muscles": [
+      "背阔",
+      "背中部"
+    ],
+    "pattern": "horizontalPull",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 7.5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "form": "一手抓绳向髋侧拉，身体只允许轻微旋转"
+  },
+  {
+    "id": "close-grip-bench",
+    "name": "窄距杠铃卧推",
+    "muscles": [
+      "三头",
+      "胸",
+      "三角前束"
+    ],
+    "pattern": "horizontalPush",
+    "kind": "compound",
+    "heavy": true,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 165,
+    "reps": 6,
+    "sets": 3,
+    "ramp": true,
+    "starter": {
+      "0": {
+        "male": 30,
+        "female": 20
+      },
+      "1": {
+        "male": 40,
+        "female": 27.5
+      },
+      "2": {
+        "male": 52.5,
+        "female": 35
+      }
+    },
+    "caution": {
+      "shoulder": "手距不要太窄，比肩略窄即可，否则腕和肩前都不舒服"
+    },
+    "form": "肘贴身向前下压到胸下部，推起时手臂接近伸直"
+  },
+  {
+    "id": "lying-triceps-ext",
+    "name": "哑铃仰卧臂屈伸",
+    "muscles": [
+      "三头"
+    ],
+    "pattern": "triceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 6,
+        "female": 4
+      },
+      "1": {
+        "male": 10,
+        "female": 6
+      },
+      "2": {
+        "male": 12,
+        "female": 8
+      }
+    },
+    "caution": {
+      "shoulder": "哑铃举在眼睛上方而不是头顶，肩前更舒服"
+    },
+    "form": "上臂保持朝向天花板不动，只有肘弯曲伸展"
+  },
+  {
+    "id": "overhead-db-ext",
+    "name": "哑铃颈后臂屈伸",
+    "muscles": [
+      "三头长头",
+      "三头"
+    ],
+    "pattern": "triceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 8,
+        "female": 5
+      },
+      "1": {
+        "male": 12,
+        "female": 8
+      },
+      "2": {
+        "male": 16,
+        "female": 10
+      }
+    },
+    "caution": {
+      "shoulder": "手臂抬到耳侧是极限角度，肩前刺痛就换成绳索下压"
+    },
+    "form": "双手托一只哑铃在头后，肘朝前不外张"
+  },
+  {
+    "id": "bench-dip",
+    "name": "凳上反屈伸",
+    "muscles": [
+      "三头",
+      "胸",
+      "三角前束"
+    ],
+    "pattern": "triceps",
+    "kind": "compound",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "自重",
+    "restSec": 75,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "脚越远肩前压力越大，先屈膝把脚收近"
+    },
+    "form": "手撑凳沿，身体垂直下沉到肘 90 度再撑起"
+  },
+  {
+    "id": "cable-kickback",
+    "name": "绳索单臂臂屈伸",
+    "muscles": [
+      "三头"
+    ],
+    "pattern": "triceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "form": "上臂固定在体侧，只伸展肘，顶端停一下"
+  },
+  {
+    "id": "preacher-curl",
+    "name": "牧师凳弯举",
+    "muscles": [
+      "二头"
+    ],
+    "pattern": "biceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "固定器械"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 10,
+        "female": 5
+      },
+      "1": {
+        "male": 15,
+        "female": 10
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "shoulder": "垫子太高会把肩顶起来，调到肩在垫上刚好"
+    },
+    "form": "腋下卡稳垫子，下放到手臂接近伸直再弯起"
+  },
+  {
+    "id": "incline-db-curl",
+    "name": "上斜哑铃弯举",
+    "muscles": [
+      "二头",
+      "三头长头"
+    ],
+    "pattern": "biceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 6,
+        "female": 4
+      },
+      "1": {
+        "male": 10,
+        "female": 6
+      },
+      "2": {
+        "male": 12,
+        "female": 8
+      }
+    },
+    "caution": {
+      "shoulder": "上斜角度大时肩要稳住，别靠晃身体完成"
+    },
+    "form": "上斜凳 45 度，手臂垂在体侧后方，肘不前移"
+  },
+  {
+    "id": "concentration-curl",
+    "name": "集中弯举",
+    "muscles": [
+      "二头"
+    ],
+    "pattern": "biceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "哑铃"
+    ],
+    "unit": "每手kg",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 6,
+        "female": 4
+      },
+      "1": {
+        "male": 10,
+        "female": 6
+      },
+      "2": {
+        "male": 12,
+        "female": 8
+      }
+    },
+    "form": "肘靠在大腿内侧，慢慢弯起到顶点挤压再慢放"
+  },
+  {
+    "id": "reverse-curl",
+    "name": "反握杠铃弯举",
+    "muscles": [
+      "肱桡",
+      "二头"
+    ],
+    "pattern": "biceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "杠铃"
+    ],
+    "unit": "kg",
+    "restSec": 75,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 15,
+        "female": 10
+      },
+      "1": {
+        "male": 20,
+        "female": 12.5
+      },
+      "2": {
+        "male": 25,
+        "female": 15
+      }
+    },
+    "caution": {
+      "shoulder": "腕背屈握法对腕有压力，出现不适就换锤式"
+    },
+    "form": "掌心朝下握杠，肘固定在体侧向上弯"
+  },
+  {
+    "id": "cable-curl",
+    "name": "绳索弯举",
+    "muscles": [
+      "二头"
+    ],
+    "pattern": "biceps",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 7.5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "form": "直杆或绳索垂在体侧，肘不动只弯腕以上的关节"
+  },
+  {
+    "id": "crunch",
+    "name": "卷腹",
+    "muscles": [
+      "核心"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 45,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "lowBack": "只把肩胛抬离地面，腰始终贴在垫上"
+    },
+    "form": "下巴与胸保持一拳，用腹部把上背卷起来"
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "仰卧抬腿卷腹",
+    "muscles": [
+      "核心",
+      "股四头"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 45,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "lowBack": "下放时腰一旦离开垫子就缩小行程",
+      "knee": "膝微屈，别完全锁死"
+    },
+    "form": "用腹部把骨盆卷离地面，双腿慢下慢上"
+  },
+  {
+    "id": "side-plank",
+    "name": "侧平板支撑",
+    "muscles": [
+      "核心",
+      "臀"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 45,
+    "reps": 30,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "肘在肩正下方，肩顶不住就先做 15 秒"
+    },
+    "form": "秒数计，侧身把髋顶起，膝髋肩一条线，两侧各做"
+  },
+  {
+    "id": "hollow-hold",
+    "name": "仰姿静止支撑",
+    "muscles": [
+      "核心"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 45,
+    "reps": 25,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "lowBack": "腰一离垫就把手脚放低一点，宁可幅度小"
+    },
+    "form": "秒数计，肩与脚同时离地，腰压住垫子"
+  },
+  {
+    "id": "bird-dog",
+    "name": "鸟狗式",
+    "muscles": [
+      "核心",
+      "后链"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 45,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "lowBack": "骨盆保持水平，别转到一侧",
+      "knee": "跪地不适就垫毛巾"
+    },
+    "form": "四点跪姿，对侧手脚向前后延伸，躯干不晃"
+  },
+  {
+    "id": "cable-crunch",
+    "name": "绳索跪姿卷腹",
+    "muscles": [
+      "核心"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 15,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 10,
+        "female": 7.5
+      },
+      "2": {
+        "male": 15,
+        "female": 10
+      }
+    },
+    "caution": {
+      "knee": "跪在垫子上，髋不要坐到脚后跟上"
+    },
+    "form": "双手夹绳在头侧，用腹部把肘卷向大腿，髋不折叠"
+  },
+  {
+    "id": "pallof-press",
+    "name": "绳索抗旋转推",
+    "muscles": [
+      "核心",
+      "三角前束"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "龙门架"
+    ],
+    "unit": "kg",
+    "restSec": 60,
+    "reps": 10,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 5,
+        "female": 5
+      },
+      "1": {
+        "male": 7.5,
+        "female": 5
+      },
+      "2": {
+        "male": 10,
+        "female": 7.5
+      }
+    },
+    "form": "双手把把手从胸前推出，身体不被绳拉转，停 2 秒收回"
+  },
+  {
+    "id": "hanging-knee-raise",
+    "name": "悬垂举膝",
+    "muscles": [
+      "核心",
+      "背阔"
+    ],
+    "pattern": "core",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "引体杆"
+    ],
+    "unit": "无",
+    "restSec": 60,
+    "reps": 12,
+    "sets": 3,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "悬挂时肩主动下沉，别完全挂在韧带上",
+      "lowBack": "不要甩腿借力，先做举膝再做举腿"
+    },
+    "form": "挂在杆上把膝抬到髋前，骨盆向后卷，慢放下"
+  },
+  {
+    "id": "jump-rope",
+    "name": "跳绳",
+    "muscles": [
+      "心肺",
+      "小腿"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "ankle": "前脚掌落地，别用脚跟砸地",
+      "knee": "跳太低，绳过得去就够了"
+    },
+    "form": "腕转绳不甩臂，落地轻，能说话但不能唱歌的强度"
+  },
+  {
+    "id": "stair-climber",
+    "name": "楼梯机",
+    "muscles": [
+      "心肺",
+      "臀",
+      "股四头"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "有氧区"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "knee": "别把全身重量压在前膝上，扶把手只是平衡",
+      "ankle": "整脚踩上台阶，别让脚跟悬空"
+    },
+    "form": "一档一档稳稳踩，身体直立不塌在把手上"
+  },
+  {
+    "id": "recumbent-bike",
+    "name": "靠背单车",
+    "muscles": [
+      "心肺",
+      "股四头"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "有氧区"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "knee": "坐垫太靠前膝压大，调到踩到底膝仍微屈"
+    },
+    "form": "有靠背的单车，腰不舒服的人用它代替跑步机"
+  },
+  {
+    "id": "battle-rope",
+    "name": "战绳交替甩",
+    "muscles": [
+      "心肺",
+      "三角",
+      "核心"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "有氧区"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "shoulder": "肩抬不过肩高，酸胀就停",
+      "lowBack": "半蹲姿势保持腰平直"
+    },
+    "form": "20 秒甩 + 40 秒走，用身体节奏而不是硬抡"
+  },
+  {
+    "id": "burpee",
+    "name": "波比跳",
+    "muscles": [
+      "心肺",
+      "胸",
+      "股四头",
+      "核心"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "自重"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "knee": "落地要缓冲、膝别内扣，不舒服就改成不跳的版本",
+      "lowBack": "俯卧撑那一段塌腰就省掉它"
+    },
+    "form": "俯卧撑→收腿→起跳，做不动就改成不走跳的版本"
+  },
+  {
+    "id": "ski-erg",
+    "name": "滑雪机",
+    "muscles": [
+      "心肺",
+      "背",
+      "三头"
+    ],
+    "pattern": "cardio",
+    "kind": "isolation",
+    "heavy": false,
+    "equipment": [
+      "有氧区"
+    ],
+    "unit": "无",
+    "restSec": 0,
+    "reps": 0,
+    "sets": 1,
+    "ramp": false,
+    "starter": {
+      "0": {
+        "male": 0,
+        "female": 0
+      },
+      "1": {
+        "male": 0,
+        "female": 0
+      },
+      "2": {
+        "male": 0,
+        "female": 0
+      }
+    },
+    "caution": {
+      "lowBack": "向下拉时用髋折，别弓着腰硬压"
+    },
+    "form": "拉桨到底、起身回桨，节奏均匀不冲"
+  }
+]

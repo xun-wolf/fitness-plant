@@ -1,0 +1,23 @@
+# 依赖与构建产物
+node_modules/
+dist/
+target/
+*.class
+*.jar
+
+# 本地环境变量与密钥
+.env
+.env.*
+!.env.example
+server/.env
+
+# IDE 与系统文件
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+
+# 日志与本地截图
+*.log
+.screenshots/
